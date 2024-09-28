@@ -38,7 +38,7 @@ function App() {
           ></button>
           <button
             onClick={() => setColor('white')}
-            className='w-10 h-7 rounded-xl bg-white hover:bg-gray-400'
+            className='w-10 h-7 rounded-xl bg-white outline outline-offset-2\1 outline-1 hover:bg-gray-400'
           ></button>
           </div>
       </div>
