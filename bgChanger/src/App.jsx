@@ -1,5 +1,7 @@
 import { useState } from 'react'
 
+import Counter from './Counter'
+
 import './App.css'
 
 function App() {
@@ -42,6 +44,7 @@ function App() {
           ></button>
           </div>
       </div>
+      <Counter />
      </div>
   )
 }
